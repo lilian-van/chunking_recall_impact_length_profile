@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lilian-van-agentplat_jd139"
+name = "lilian-van-chunking_recall_impact_length_profile"
 version = "0.1.0"
 description = "按段落统计Agent 编排平台工程师·分块策略对召回的影响相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lilian-van.github.io"
-Repository = "https://github.com/lilian-van/agentplat_jd139"
-Issues = "https://github.com/lilian-van/agentplat_jd139/issues"
+Repository = "https://github.com/lilian-van/chunking_recall_impact_length_profile"
+Issues = "https://github.com/lilian-van/chunking_recall_impact_length_profile/issues"
 
 [project.scripts]
-agentplat_jd139 = "agentplat_jd139:main"
+chunking_recall_impact_length_profile = "chunking_recall_impact_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["agentplat_jd139"]
+py-modules = ["chunking_recall_impact_length_profile"]
